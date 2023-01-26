@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;600;700&display=swap');
+
+
+
+:root{
+  --text-lightDark: rgb(173, 173, 173);
+}
 
 * {
   margin: 0;
@@ -8,7 +14,7 @@
   list-style: none;
   text-decoration: none;
   color: white;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Heebo', sans-serif;
 }
 
 body {
@@ -38,7 +44,12 @@ body {
   margin: auto;
   letter-spacing: 1.3px;
   line-height: 22px;
-  font-weight: 600;
+  color: rgb(78, 78, 78);
+  font-weight: 400;
+}
+
+.section span {
+  color: var(--text-lightDark)
 }
 
 .bio_header{
@@ -79,6 +90,7 @@ a {
   justify-content: space-around;
   margin-right: 11px;
   font-weight: 200;
+  font-family: "Silkscreen", cursive;
 }
 
 @media screen and (max-width: 769px) {
