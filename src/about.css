@@ -22,6 +22,9 @@ header {
   margin-bottom: 99px;
 }
 
+.mit{
+  font-family: "Silkscreen", cursive;
+}
 header > a{
   font-family: "Silkscreen", cursive;
  
