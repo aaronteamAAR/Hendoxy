@@ -22,6 +22,11 @@ header {
   margin-bottom: 99px;
 }
 
+header > a{
+  font-family: "Silkscreen", cursive;
+ 
+}
+
 nav {
   display: flex;
   margin-right: 165px;

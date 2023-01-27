@@ -17,6 +17,11 @@
   font-family: 'Heebo', sans-serif;
 }
 
+body{
+  background-color: black;
+}
+
+
 
 .container{
   display: flex;
@@ -31,8 +36,10 @@
   align-items: center;
   justify-content: center;
   padding-top: 2rem;
+  color: white;
 }
 .nav-list li{
+  color: white;
   font-family: "Trispace", sans-serif;
 }
 
@@ -89,6 +96,7 @@
 .gallery_txt span {
   letter-spacing: var(--letter-space-xx);
   font-size: 24px;
+  color: var(--text-lightDark);
 }
 
 
