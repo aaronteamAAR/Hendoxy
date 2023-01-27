@@ -54,7 +54,8 @@ body {
 }
 
 .section span {
-  color: var(--text-lightDark)
+  color: var(--text-lightDark);
+  padding-bottom: 3em;
 }
 
 .bio_header{
@@ -115,7 +116,9 @@ a {
   font-family: "Silkscreen", cursive;
 }
 
-@media screen and (max-width: 769px) {
+
+
+@media screen and (max-width: 768px) {
   .container{
     max-width: 100%;
     padding: 0;
@@ -130,9 +133,13 @@ a {
     flex-direction: row;
   }
 
+  .gallery_txt  span{
+    margin-top: 3em;
+  }
+
   .section span{
-    width: 100%;
-    margin-right: 10em;
+    width: 100% !important;
+    margin: auto;
   }
   .gallery{
     flex-direction: column;
@@ -141,3 +148,6 @@ a {
   }
 
 }
+
+
+
