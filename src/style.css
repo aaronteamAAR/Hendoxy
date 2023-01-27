@@ -14,13 +14,9 @@
   font-size: 14px;
   list-style: none;
   text-decoration: none;
-  color: white;
   font-family: 'Heebo', sans-serif;
 }
 
-body {
-  background-color: rgb(0, 0, 0);
-}
 
 .container{
   display: flex;
@@ -54,7 +50,6 @@ body {
 }
 
 .section span {
-  color: var(--text-lightDark);
   padding-bottom: 3em;
 }
 
@@ -89,11 +84,9 @@ body {
 
 .gallery_txt{
   width: 50%;
-  color: var(--text-lightDark);
 }
 
 .gallery_txt span {
-  color: var(--text-lightDark);
   letter-spacing: var(--letter-space-xx);
   font-size: 24px;
 }
