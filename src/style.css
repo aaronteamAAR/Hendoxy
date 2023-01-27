@@ -91,6 +91,7 @@ body{
 
 .gallery_txt{
   width: 50%;
+  color: var(--text-lightDark);
 }
 
 .gallery_txt span {
